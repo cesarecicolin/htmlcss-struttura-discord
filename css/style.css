@@ -11,22 +11,23 @@
 
 header{
     background-color:#add8e6 ;
-    height: 50px;
+    
     
 }
 
 
 
-.wrapper{
+.wrapper-1{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
     border: 1px dashed black;
-   
-    
-    
-    
-    
+}
+.wrapper{
+     display: flex;
+    justify-content:space-between;   
+    border: 1px dashed black;
+    margin-top: 2rem;
 
 }
 
@@ -40,7 +41,7 @@ header{
 }
 
 .back-blu{
-    height: 500px;
+    min-height: 500px;
     border: 1px solid black;
     background-color: blue;
 }
@@ -51,4 +52,18 @@ header{
     background-color: pink;
 }
 
+.text{
+    background-color: purple;
+    height: 300px;
+    width: 70%;
+}
+
+.img{
+    background-color: lightskyblue;
+    width: 30%;
+}
+
+.back-grey{
+    background-color: lightgray;
+}
 
