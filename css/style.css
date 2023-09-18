@@ -1,3 +1,5 @@
+/* RESET */
+
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +12,10 @@
 }
 
 header{
-    background-color:#add8e6 ;
-    
-    
+    background-color:#add8e6 ;   
 }
 
-
+/* common */
 
 .wrapper-1{
     display: flex;
@@ -25,15 +25,20 @@ header{
 }
 .wrapper{
      display: flex;
-    justify-content:space-between;   
+       
     border: 1px dashed black;
     margin-top: 2rem;
 
 }
 
-.head-back{
-    padding-bottom: 1rem;
+.wrapper-2{
+    display: flex;
+       
+    border: 1px dashed white;
+    
 }
+
+/* HEADER */
 
 .back-orange{
     background-color: orange;
@@ -52,6 +57,8 @@ header{
     background-color: pink;
 }
 
+/* section */
+
 .text{
     background-color: purple;
     height: 300px;
@@ -65,5 +72,38 @@ header{
 
 .back-grey{
     background-color: lightgray;
+    padding: 2rem;
+    
+    
 }
 
+.green-block{
+    min-height: 700px;
+    background-color: green;
+    
+
+}
+ 
+.margin{
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+
+.col{
+    min-height: 600px;
+    background-color:aquamarine ;
+    border: 1px dashed white;
+    color: white;
+    width: 600px;
+}
+.col-2{
+    min-height: 600px;
+    background-color:lightcoral ;
+    border: 1px dashed white;
+    color: white;
+    
+}
