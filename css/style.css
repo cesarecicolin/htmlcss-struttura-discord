@@ -3,6 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aquamarine;
+
+.container{
+    width: 60%;
+    margin: 0 auto;
 }
+
+header{
+    background-color:#add8e6 ;
+    height: 50px;
+    
+}
+
+
+
+.wrapper{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    border: 1px dashed black;
+   
+    
+    
+    
+    
+
+}
+
+.head-back{
+    padding-bottom: 1rem;
+}
+
+.back-orange{
+    background-color: orange;
+    
+}
+
+.back-blu{
+    height: 500px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.retangolo{
+    margin-top: 50px;
+    height: 400px;
+    background-color: pink;
+}
+
+
