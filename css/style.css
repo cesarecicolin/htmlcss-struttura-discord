@@ -7,10 +7,14 @@
 }
 
 .container{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+    max-width: 1100px;
 }
 
+img{
+    max-width: 100%;
+}
 header{
     background-color:#add8e6 ;   
 }
@@ -40,19 +44,56 @@ header{
 
 /* HEADER */
 
+.header-navigation{
+    background-color:#add8e6 ;
+    height: 5rem;
+    
+}
+
+.header-nav{
+   width: 60%;
+}
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    margin: 10px;
+}
+
+.header-logo
+.header-action{
+    width: 20%;
+}
+.header-action{
+    text-align: end;
+}
+
+.align-center{
+    align-items: center;
+}
+
 .back-orange{
+    /* Debug */
     background-color: orange;
     
 }
 
 .back-blu{
+    /* Debug */
     min-height: 500px;
     border: 1px solid black;
     background-color: blue;
 }
 
 .retangolo{
+    width:60%;
     margin-top: 50px;
+    /* Debug */
     height: 400px;
     background-color: pink;
 }
@@ -60,17 +101,20 @@ header{
 /* section */
 
 .text{
+    /* Debug */
     background-color: purple;
-    height: 300px;
+   min-height: 300px;
     width: 70%;
 }
 
 .img{
+    /* Debug */
     background-color: lightskyblue;
     width: 30%;
 }
 
 .back-grey{
+    /* Debug */
     background-color: lightgray;
     padding: 2rem;
     
@@ -78,6 +122,7 @@ header{
 }
 
 .green-block{
+    /* Debug */
     min-height: 700px;
     background-color: green;
     
@@ -89,21 +134,40 @@ header{
 }
 
 /* FOOTER */
-footer{
+footer {
+   /* Debug */
     background-color: black;
 }
 
-.col{
-    min-height: 600px;
-    background-color:aquamarine ;
-    border: 1px dashed white;
-    color: white;
-    width: 600px;
+.main-column {
+    width: 30%;
+    /* Debug */
+    background-color: lightcyan;
+    min-height: 400px;
 }
-.col-2{
-    min-height: 600px;
-    background-color:lightcoral ;
-    border: 1px dashed white;
-    color: white;
-    
+
+.menu-column {
+    width: 70%;
+    display: flex;
+    /* Debug */
+    background-color: lightpink;
+    min-height: 400px;
+}
+
+.footer-menu {
+    width: calc(100% / 4);
+    /* Debug */
+    border: 1px dashed gray;
+    min-height: 400px;
+}
+
+.footer-bottom {
+   /* Debug */
+   border-top: 1px solid white;
+}
+
+.footer-bottom .container {
+    padding: 1rem 0;
+    /* Debug */
+    background-color: lightblue;
 }
